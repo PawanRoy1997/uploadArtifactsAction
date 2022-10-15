@@ -43,7 +43,7 @@ jobs:
       - name: Put some content
         run: echo "It works" > artifacts/hello.txt
       
-      - uses: actions/upload-artifacts@v2
+      - uses: actions/upload-artifact@v2
         with:
           name: uplaoding content
           path: artifacts/hello.txt
